@@ -4876,7 +4876,7 @@ function HeadTarget.OnToggle(state)
         Aimbot.Config.TargetPart = "HumanoidRootPart"
         SilentAim.Settings.Part = "HumanoidRootPart"
     end
-end)
+end
 
 ------------------------------------------------------------
 -- BUNNY HOP  (auto-jump while moving for FPS games)
