@@ -4451,7 +4451,7 @@ function VelTP.OnToggle(state)
     else
         if _velConn then _velConn:Disconnect(); _velConn = nil end
     end
-end
+end)
 
 ------------------------------------------------------------
 -- TPAURA / TELEPORT AURA  (teleport-strike each nearby enemy in sequence)
@@ -4876,7 +4876,7 @@ function HeadTarget.OnToggle(state)
         Aimbot.Config.TargetPart = "HumanoidRootPart"
         SilentAim.Settings.Part = "HumanoidRootPart"
     end
-end
+end)
 
 ------------------------------------------------------------
 -- BUNNY HOP  (auto-jump while moving for FPS games)
