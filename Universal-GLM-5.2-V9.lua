@@ -4451,7 +4451,7 @@ function VelTP.OnToggle(state)
     else
         if _velConn then _velConn:Disconnect(); _velConn = nil end
     end
-end)
+end
 
 ------------------------------------------------------------
 -- TPAURA / TELEPORT AURA  (teleport-strike each nearby enemy in sequence)
